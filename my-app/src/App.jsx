@@ -3,10 +3,12 @@ import "./App.css";
 import Table from "./components/Table";
 import Button from "./components/Button";
 import Label from "./components/Label";
-import ClassCounterLoading from "./components/ClassCounterLoading";
+import ClassComponentLoading from "./components/ClassComponentLoading";
 import ClassComponentUkrytyParagraf from "./components/ClassComponentUkrytyParagraf";
 import ClassCounterZwiekszanieIRownanieWartosci from "./components/ClassCounterZwiekszanieIRownanieWartosci";
 import ClassCounterZwiekszanieLimituLicznika from "./components/ClassCounterZwiekszanieLimituLicznika";
+import CurrencyApp from "./components/CurrencyApp";
+import ClassComponentInputPoprawneHaslo from "./components/ClassComponentInputPoprawneHaslo";
 
 const App = () => {
   return (
@@ -14,13 +16,12 @@ const App = () => {
       <header className="App-header">
         <ClassCounterZwiekszanieIRownanieWartosci />
         <ClassCounterZwiekszanieLimituLicznika />
-        <ClassCounterLoading />
+        <ClassComponentInputPoprawneHaslo />
         <ClassComponentUkrytyParagraf />
         <Table> </Table> Lekcja 2 zad 4 :)
-        {/* <Counter initialCounter={0} />
-        <Counter initialCounter={100} /> */}
         <Button
           onClickSendDataToParent={(e) => console.log("Lekcja2zad2")}></Button>
+        <CurrencyApp />
       </header>
     </div>
   );
