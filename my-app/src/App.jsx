@@ -10,11 +10,16 @@ import CurrencyApp from "./components/CurrencyApp";
 import ClassComponentInputPoprawneHaslo from "./components/ClassComponentInputPoprawneHaslo";
 import ClassCounterBoom from "./components/ClassCounterBoom";
 import ClassAlertBar from "./components/ClassAlertBar";
+import Input from "./components/Input";
 
 const App = () => {
   return (
     <div className="App">
       <header className="App-header">
+        <Input
+          onInputChange={(e) => console.log(e.target.value)}
+          placeholder={"placeholder"}
+        />
         <ClassCounterBoom />
         <ClassAlertBar />
         <ClassComponentLoading />
