@@ -12,6 +12,7 @@ import ClassCounterBoom from "./components/ClassCounterBoom";
 import ClassAlertBar from "./components/ClassAlertBar";
 import Input from "./components/Input";
 import SquareOrCircle from "./components/SquareOrCircle";
+import List from "./components/List";
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
         Lekcja 2 zad 4 :)
         <Button
           onClickSendDataToParent={(e) => console.log("Lekcja2zad2")}></Button>
+        <List />
         <CurrencyApp />
       </header>
     </div>
