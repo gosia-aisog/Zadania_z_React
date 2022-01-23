@@ -6,7 +6,7 @@ class ClassComponentLoading extends Component {
     this.state = { isLoading: true };
     setTimeout(
       () => this.setState((state) => ({ ...state, isLoading: false })),
-      2000
+      2 * 1000
     );
   }
 

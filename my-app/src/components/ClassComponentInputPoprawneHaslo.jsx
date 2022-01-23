@@ -21,7 +21,7 @@ class ClassComponentInputPoprawneHaslo extends Component {
       <div>
         <input type={this.state.inputType}></input>
         <button onClick={this.passwordVisibility}>
-          PoprawneHaslo lek 4 zad 5
+          PoprawneHaslo lekcja 4 zad 5
         </button>
       </div>
     );
