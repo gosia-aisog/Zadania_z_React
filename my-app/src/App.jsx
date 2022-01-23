@@ -14,6 +14,7 @@ import Input from "./components/Input";
 import SquareOrCircle from "./components/SquareOrCircle";
 import List from "./components/List";
 import ModificationList from "./components/ModificationList";
+import UniversalInput from "./components/UniversalInput";
 
 const App = () => {
   return (
@@ -37,6 +38,7 @@ const App = () => {
           onClickSendDataToParent={(e) => console.log("Lekcja2zad2")}></Button>
         <List />
         <ModificationList />
+        <UniversalInput />
         <CurrencyApp />
       </header>
     </div>
