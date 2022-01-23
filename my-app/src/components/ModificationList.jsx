@@ -1,8 +1,8 @@
 import React from "react";
 import listItemsData from "../data/ThirdLessonData";
 
-const ModificationList = (isOrder) => {
-  return isOrder ? (
+const ModificationList = (isOrdered) => {
+  return isOrdered ? (
     <ol>
       {listItemsData.map((surname) => (
         <li key={surname}>{surname}</li>
