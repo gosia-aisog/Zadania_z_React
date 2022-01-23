@@ -11,11 +11,13 @@ import ClassComponentInputPoprawneHaslo from "./components/ClassComponentInputPo
 import ClassCounterBoom from "./components/ClassCounterBoom";
 import ClassAlertBar from "./components/ClassAlertBar";
 import Input from "./components/Input";
+import SquareOrCircle from "./components/SquareOrCircle";
 
 const App = () => {
   return (
     <div className="App">
       <header className="App-header">
+        <SquareOrCircle />
         <Input
           onInputChange={(e) => console.log(e.target.value)}
           placeholder={"placeholder"}
