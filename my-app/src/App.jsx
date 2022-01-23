@@ -13,6 +13,7 @@ import ClassAlertBar from "./components/ClassAlertBar";
 import Input from "./components/Input";
 import SquareOrCircle from "./components/SquareOrCircle";
 import List from "./components/List";
+import ModificationList from "./components/ModificationList";
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
         <Button
           onClickSendDataToParent={(e) => console.log("Lekcja2zad2")}></Button>
         <List />
+        <ModificationList />
         <CurrencyApp />
       </header>
     </div>
