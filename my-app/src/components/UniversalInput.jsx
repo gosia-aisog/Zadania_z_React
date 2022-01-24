@@ -1,15 +1,14 @@
 import React from "react";
-const item = "kowalsky@wp.pl";
 function UniversalInput({ inputType }) {
-  console.log(typeof { item });
-  if (typeof item === "text") {
-    return "text";
-  } else if (typeof item === "number") {
-    return "number";
-  } else if (typeof item === "email") {
-    return "email";
+  console.log(inputType);
+  if (inputType === "text") {
+    return <input type="text" />;
+  } else if (inputType === "number") {
+    return <input type="number" />;
+  } else if (inputType === "email") {
+    return <input type="email" />;
   } else {
-    return "range";
+    return <input type="range" />;
   }
 }
 

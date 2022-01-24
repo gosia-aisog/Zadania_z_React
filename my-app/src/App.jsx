@@ -39,6 +39,9 @@ const App = () => {
         <List />
         <ModificationList />
         <UniversalInput />
+        <UniversalInput inputType="text" />
+        <UniversalInput inputType="number" />
+        <UniversalInput inputType="email" />
         <CurrencyApp />
       </header>
     </div>
